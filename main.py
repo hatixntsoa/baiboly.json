@@ -3,12 +3,12 @@ from server.uvicorn_server import UvicornServer
 
 
 def main() -> None:
-    server = UvicornServer()
-  
-    server.set_ip("localhost")
-    server.set_port(8000)
-    
-    server.set_app(BaibolyAPI().get_api())
+    server: UvicornServer = (
+        UvicornServer()
+        .set_ip("localhost")
+        .set_port(8000)
+        .set_app(BaibolyAPI().get_api())
+    )
     server.run()
 
 
