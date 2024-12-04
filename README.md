@@ -2,6 +2,12 @@
 
 This FastAPI application serves JSON data sourced from the [Baiboly JSON Repository](https://github.com/RaveloMevaSoavina/baiboly-json.git), a comprehensive dataset of the Malagasy Bible (Baiboly).
 
+## Demo
+
+<div style="text-align: center; width: 100%; max-width: 800px;">
+   <video src="./assets/demo/demo.mp4" style="width: 100%;" controls></video>
+</div>
+
 ## How to Run  
 
 1. **Create a Virtual Environment**  
