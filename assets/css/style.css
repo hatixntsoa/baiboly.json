@@ -1,0 +1,83 @@
+@import url("./colors.css");
+@import url("./scroll.css");
+@import url("./theme.css");
+@import url("./font.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'NerdFont', monospace;
+}
+
+body {
+  background-color: var(--background-color);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 85%;
+  height: 90vh;
+  padding: 25px;
+  background-color: var(--background-color);
+  color: var(--primary-color);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: var(--primary-color);
+}
+
+.book-selector {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+select {
+  padding: 5px;
+  font-size: 16px;
+  background-color: var(--background-color);
+  color: var(--primary-color);
+}
+
+label {
+  font-size: 16px;
+}
+
+#data-container {
+  flex: 1;
+  width: 100%;
+  height: 200px;
+  padding: 15px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  line-height: 1.5;
+  border: none;
+  border-radius: 4px;
+  overflow-y: auto;
+  white-space: pre-wrap;
+  text-align: justify;
+  color: var(--primary-color);
+}
+
+.justified-text {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.verse-title {
+  color: var(--github-blue);
+  font-weight: bold;
+}

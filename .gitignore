@@ -1,0 +1,12 @@
+# Ignore __pycache__
+**/__pycache__
+
+# Ignore python virtual environment
+**/[Bb]in
+**/[Ii]nclude
+**/[Ll]ib
+**/[Ll]ib64
+**/[Ll]ocal
+**/[Ss]cripts
+**/[Ss]hare
+**/pyvenv.cfg

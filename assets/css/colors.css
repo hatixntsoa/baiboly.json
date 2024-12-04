@@ -1,0 +1,21 @@
+:root {
+  --primary-color: black;
+  --secondary-color: #e1e1e1;
+  --background-color: #f6f8fa;
+  --hover-color: #f0f0f0;
+  --scroll-bg: #e1e1e1;
+  --scroll-handle: #888888;
+  --handle-hover: #a59f9f;
+  --github-blue: #1f6feb;
+}
+
+.dark {
+  --primary-color: #c9d1d9;
+  --secondary-color: #21262d;
+  --background-color: #0d1117;
+  --hover-color: #181b1f;
+  --scroll-bg: #21262d;
+  --scroll-handle: #555;
+  --handle-hover: #777;
+  --github-blue: #1f6feb;
+}

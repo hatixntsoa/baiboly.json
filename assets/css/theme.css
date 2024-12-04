@@ -1,0 +1,40 @@
+#theme-toggler {
+  border-radius: 50%;
+  padding: 10px;
+  
+  /* height: 50px;
+  width: 50px; */
+  
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  position: absolute;
+
+  top: 40px;
+  right: 40px;
+
+  background: var(--secondary-color);
+  border: none;
+  cursor: pointer;
+  z-index: 1000; 
+}
+
+#theme-toggler:hover {
+  background-color: var(--hover-color);
+}
+
+#theme-toggler svg{
+  fill: var(--primary-color);
+}
+
+#theme-toggler svg:last-child {
+  display: none;
+}
+
+.dark #theme-toggler svg:first-child {
+  display: none;
+}
+
+.dark #theme-toggler svg:last-child {
+  display: block;
+}
