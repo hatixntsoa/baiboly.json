@@ -1,6 +1,10 @@
 # Baiboly FastAPI Application
 
-This FastAPI application serves JSON data sourced from the [Baiboly JSON Repository](https://github.com/RaveloMevaSoavina/baiboly-json.git), a comprehensive dataset of the Malagasy Bible (Baiboly).
+This FastAPI application is designed to serve JSON data sourced from the [Baiboly JSON Repository](https://github.com/RaveloMevaSoavina/baiboly-json.git), a comprehensive dataset of the Malagasy Bible (Baiboly). The application utilizes a custom API to efficiently fetch and process the JSON data, allowing users to access structured Bible content, including books, chapters, and verses.
+
+The API is specifically designed to order the Bible chapters and verses based on the metadata within the dataset, ensuring accurate representation of the Bible's structure. This enables seamless navigation through the chapters and verses, and provides an organized, user-friendly interface for interacting with the Malagasy Bible content.
+
+<br>
 
 https://github.com/user-attachments/assets/1294692f-a123-41d7-9758-23f90ab20d02
 
