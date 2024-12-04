@@ -14,12 +14,24 @@ https://github.com/user-attachments/assets/1294692f-a123-41d7-9758-23f90ab20d02
 
 ## How to Run  
 
-1. **Create a Virtual Environment**  
+1. **Clone the Repository**  
+   First, clone the repository to your local machine:  
+   ```bash
+   git clone https://github.com/h471x/baiboly_json.git
+   ```
+
+2. **Navigate to the Project Directory**  
+   Change into the project directory:  
+   ```bash
+   cd baiboly_json
+   ```
+
+3. **Create a Virtual Environment**  
    ```bash
    python -m venv baiboly
    ```
 
-2. **Activate the Virtual Environment**  
+4. **Activate the Virtual Environment**  
    - **Windows (PowerShell):**  
      ```powershell
      .\baiboly\Scripts\Activate.ps1
@@ -33,12 +45,12 @@ https://github.com/user-attachments/assets/1294692f-a123-41d7-9758-23f90ab20d02
      source baiboly/bin/activate
      ```
 
-3. **Install Dependencies**  
+5. **Install Dependencies**  
    ```bash
    pip install -r requirements.txt
    ```
 
-4. **Run the Application**  
+6. **Run the Application**  
    ```bash
    python main.py
    ```
