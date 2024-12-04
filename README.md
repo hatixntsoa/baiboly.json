@@ -12,26 +12,39 @@ The API is specifically designed to order the Bible chapters and verses based on
 
 https://github.com/user-attachments/assets/1294692f-a123-41d7-9758-23f90ab20d02
 
+<br>
+
+<div align="center">
+
+### Contents
+
+[Installation](#how-to-run) |
+[Classical Run](#classical-run) |
+[Local Docker Container](#run-as-docker-container-local) |
+[Pull from Dockerhub](#run-from-docker-hub)
+
+</div>
+
 ## How to Run  
 
-1. **Clone the Repository**  
-   First, clone the repository to your local machine:  
+- **Clone the Repository**  
    ```bash
    git clone https://github.com/h471x/baiboly_json.git
    ```
 
-2. **Navigate to the Project Directory**  
-   Change into the project directory:  
+- **Navigate to the Project Directory**  
    ```bash
    cd baiboly_json
    ```
 
-3. **Create a Virtual Environment**  
+### **Classical Run**
+
+- **Create a Virtual Environment**  
    ```bash
    python -m venv baiboly
    ```
 
-4. **Activate the Virtual Environment**  
+- **Activate the Virtual Environment**  
    - **Windows (PowerShell):**  
      ```powershell
      .\baiboly\Scripts\Activate.ps1
@@ -45,14 +58,41 @@ https://github.com/user-attachments/assets/1294692f-a123-41d7-9758-23f90ab20d02
      source baiboly/bin/activate
      ```
 
-5. **Install Dependencies**  
+- **Install Dependencies**  
    ```bash
    pip install -r requirements.txt
    ```
 
-6. **Run the Application**  
+- **Run the Application**  
    ```bash
    python main.py
    ```
 
-This application provides an API interface for accessing and working with Malagasy Bible (Baiboly) data in JSON format.
+### **Run as Docker Container (Local)**
+
+- **Build the Docker Image**  
+   ```bash
+   docker build -t baiboly-fastapi .
+   ```
+
+- **Run the Docker Container**  
+   ```bash
+   docker run -p 8000:8000 baiboly-fastapi
+   ```
+
+- **Access the API**  
+   Open your browser or API client and navigate to `http://localhost:8000`.
+
+#### **Run from Docker Hub**
+- **Pull the Image from Docker Hub**  
+   ```bash
+   docker pull hatixntsoa/baiboly-fastapi:v0.1.0
+   ```
+
+- **Run the Container**  
+   ```bash
+   docker run -p 8000:8000 hatixntsoa/baiboly-fastapi:v0.1.0
+   ```
+
+- **Access the API**  
+   Open your browser or API client and navigate to `http://localhost:8000`.
