@@ -28,7 +28,7 @@ function toRoman(num) {
 
   let roman = "";
   let i = 0;
-    
+
   while (num > 0) {
     let digit = num % 10;
     roman = romanNumerals[i][digit] + roman;
@@ -52,7 +52,7 @@ function loadChapters() {
         // `<option value="${ch}">${toRoman(parseInt(ch))}</option>`
         `<option value="${ch}">${parseInt(ch)}</option>`
       ).join('');
-    
+
       // Set the chapter to 1 and load verses
       document.getElementById('chapters').value = '1';
       loadVerses();

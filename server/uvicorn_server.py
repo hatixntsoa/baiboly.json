@@ -34,7 +34,7 @@ class UvicornServer:
         """Open the browser after the server is ready."""
         time.sleep(2)  # Delay to allow the server to start
         webbrowser.open(f"http://{self._ip}:{self._port}")
-        
+
 
     def run(self):
         """Run the FastAPI app."""

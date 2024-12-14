@@ -36,7 +36,7 @@ class BaibolyAPI:
 
     def get_api(self) -> FastAPI:
         return self.api
-    
+
 
     def register_routes(self) -> None:
         self.api.add_api_route("/", self.index, methods=["GET"])
