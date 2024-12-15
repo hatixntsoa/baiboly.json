@@ -1,0 +1,26 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore Python virtual environments (case-insensitive for folder names)
+[Bb]in/
+[Ii]nclude/
+[Ll]ib/
+[Ll]ib64/
+[Ll]ocal/
+[Ss]cripts/
+[Ss]hare/
+pyvenv.cfg
+
+# Ignore Git-related files
+.git/
+.gitignore
+
+# Ignore Docker-related files
+Dockerfile
+.dockerignore
+
+# Ignore documentation files (case-insensitive)
+[Rr][Ee][Aa][Dd][Mm][Ee]*
+[Ll][Ii][Cc][Ee][Nn][Ss][Ee]*
