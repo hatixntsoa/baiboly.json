@@ -10,6 +10,8 @@ The API is specifically designed to order the Bible chapters and verses based on
 
 <br>
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/h471x/baiboly_json)
+
 https://github.com/user-attachments/assets/1294692f-a123-41d7-9758-23f90ab20d02
 
 <br>
