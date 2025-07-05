@@ -31,7 +31,7 @@ https://github.com/user-attachments/assets/1294692f-a123-41d7-9758-23f90ab20d02
 
 - **Clone the Repository**  
    ```bash
-   git clone https://github.com/h471x/baiboly_json.git
+   git clone https://github.com/hatixntsoa/baiboly_json.git
    ```
 
 - **Navigate to the Project Directory**  
