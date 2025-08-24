@@ -10,7 +10,7 @@ The API is specifically designed to order the Bible chapters and verses based on
 
 <br>
 
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/h471x/baiboly_json)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/hatixntsoa/baiboly.json)
 
 https://github.com/user-attachments/assets/1294692f-a123-41d7-9758-23f90ab20d02
 
@@ -31,12 +31,12 @@ https://github.com/user-attachments/assets/1294692f-a123-41d7-9758-23f90ab20d02
 
 - **Clone the Repository**  
    ```bash
-   git clone https://github.com/hatixntsoa/baiboly_json.git
+   git clone https://github.com/hatixntsoa/baiboly.json.git
    ```
 
 - **Navigate to the Project Directory**  
    ```bash
-   cd baiboly_json
+   cd baiboly.json
    ```
 
 ### **Classical Run**
